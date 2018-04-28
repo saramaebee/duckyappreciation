@@ -1,0 +1,323 @@
+body {
+    background-color: /*#FEDCD2*/#f9f9f9;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: /*#DF744A*/black;
+}
+div {
+    padding: 0px;
+}
+code {
+	padding: 4px 3px;
+	background-color: #b2b2b2;
+	border-left: 1px solid #a8a8a8;
+	border-top: 1px solid #a8a8a8;
+	border-radius: 3px;
+}
+.currentcontainer {
+	padding: 14px 16px;
+	margin: 0 auto;
+	min-width: 85%;
+	max-width: 85%;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	background-color: #e1e3e8;
+}
+
+
+.currentevents {
+
+    margin: 0 auto;
+    text-align: center;
+    /*color: #476eb7;*/
+    font-family: verdana;
+    font-size: 16px;
+    font-style: italic;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    min-width: 75%;
+	max-width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: /*#f2c7ba*/#cccccc;
+}
+#name {
+	text-align: left;
+}
+.title {
+    color: blue;
+    font-family: "Arial";
+    margin: 3px;
+    padding: 0px;
+}
+
+.imgContain {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/sumterRunning.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.rwb {
+    width: 100%;
+    height: 225px;
+    background-image: url("images/rwb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.pubRun {
+    width: 100%;
+    height: 400px;
+    background-image: url("images/pubRun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.aboutus {
+    background-color: /*#f2c7ba*/#cccccc;
+    margin: auto;
+    text-align: center;
+    font-family: verdana;
+    font-size: 16px;
+    font-style: italic;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    min-width: 25%;
+    max-width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer {
+    background-color: #333
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color: #333;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.footer li {
+    display: block;
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 14px 16px;
+    background-color: #333;
+}
+.footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.footer li:hover {
+    background-color: #111;
+    color: lightblue;
+}
+#divider {
+    margin-top: 50;
+}
+#copyright {
+    background-color: #333;
+    color: lightblue;
+    float: left;
+}
+@media (min-width:876px) {
+    .naviBar ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+        margin-top: -4px;
+        margin-bottom: 20px;
+    }
+    .naviBar li {
+        float:left;
+        border-right: 1px solid #bbb;
+    }
+    .naviBar li:last-child{
+        border-right: none;
+    }
+    .naviBar li a {
+        display: block;
+        color: lightblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .naviBar li a:hover{
+        background-color: #9fa3a8;
+        color: #d8edf3;
+    }
+    #navTitle {
+        color: lightblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        position: absolute;
+        left: calc(50% - 100px);
+        font-style: italic;
+        font-weight: bold;
+    }
+    #happenings {
+		padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        border-right: none;
+		color:white;
+    }
+}
+@media (max-width:875px) {
+    .naviBar ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+        margin-top: -4px;
+        margin-bottom: 20px;
+    }
+    .naviBar li {
+        float:left;
+        border-right: 1px solid #bbb;
+    }
+    .naviBar li:last-child{
+        border-right: none;
+    }
+    .naviBar li a {
+        display: block;
+        color: lightblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .naviBar li a:hover{
+        background-color: #9fa3a8;
+        color: #d8edf3;
+    }
+    #navTitle {
+        display: block;
+        color: lightblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+table {
+    max-width: 75%;
+    min-width: 25%;
+    margin: auto;
+    border-radius: 40px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border-radius: 40px;
+}
+table, th {
+    color: black;
+}
+table, td a {
+    color: red;
+    text-decoration: none;
+}
+table abbr {
+    text-decoration: none;
+}
+.muted {
+    color: gray;
+}
+#month {
+    color: blue;
+}
+html, body {
+    height: 100%;
+}
+td a {
+    color: blue;
+}
+.Links {
+    background-color: #cccccc;
+    margin: auto;
+    text-align: center;
+    font-family: verdana;
+    font-size: 16px;
+    font-style: italic;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    min-width: 25%;
+    max-width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+.Links ul {
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+}
+.Links li a {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    border-radius: 300px;
+    padding: 4px 6px;
+    margin: 5px;
+}
+.Links li a:hover {
+    background-color: #9fa3a8;
+}
+.Links p {
+    text-align: center;
+    padding: 0px;
+    margin-left: 55px;
+}
+.numbers {
+    font-size: 10px;
+}
+.realEvent {
+    max-width: 75%;
+    min-width: 25%;
+    margin: auto;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid #bbb;
+    margin-bottom: 10px;
+}
+#event1_1 {
+    padding: 10px 14px;
+    background-color: #cccccc;
+    margin: 10px;
+    border-radius: 5px;
+}
+#date {
+    margin-left: 1%
+}
+
+/*
+<div id="date" class="realEvent">
+    <h2><span id="date">Insert Date</span></h2>
+    <div id="event1_1">
+        <h4>Title</h4>
+        <p>Location, SC. Distance. Contact: <a href="mailto:"></a></p>
+    </div>
+</div>
